@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-black text-blanco text-[14px]">
+
+  <!-- Rating state start -->
+  <div class="contenedor container px-[1rem] mx-auto md:w-[25rem]  my-[5rem]">
+    <div class="card-submit p-6 bg-azul-muy-oscuro rounded-3xl" id="card-submit">
+      
+      <img class="rounded-full p-3 bg-azul-oscuro" src="../images/icon-star.svg" alt="imagen star">
+      <h3 class="pt-5 text-3xl font-bold">How did we do?</h3>
+
+      <p class="my-8 text-gris-medio ">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+
+      <form class="mb-5" id="formulario">
+        <ul class="flex justify-between">
+          <li class="bg-azul-oscuro w-12 h-12 content-center text-center rounded-full hover:bg-gris-claro cursor-pointer transition-colors">1</li>
+          <li class="bg-azul-oscuro w-12 h-12 content-center text-center rounded-full hover:bg-gris-claro cursor-pointer transition-colors">2</li>
+          <li class="bg-azul-oscuro w-12 h-12 content-center text-center rounded-full hover:bg-gris-claro cursor-pointer transition-colors">3</li>
+          <li class="bg-azul-oscuro w-12 h-12 content-center text-center rounded-full hover:bg-gris-claro cursor-pointer transition-colors">4</li>
+          <li class="bg-azul-oscuro w-12 h-12 content-center text-center rounded-full hover:bg-gris-claro cursor-pointer transition-colors">5</li>
+        </ul>
+
+        <button type="submit" class="block w-full mt-5 bg-naranja p-3 text-center font-bold uppercase rounded-3xl hover:bg-blanco hover:text-naranja transition-colors">Submit</button>
+      </form>
+    </div>  
+  </div>
+  
+  <div class="attribution text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Miguel Agustin Baiud</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
