@@ -42,7 +42,7 @@ function crearHTML() {
     cardSubmit.innerHTML = `
     <div class="card-submit p-6 bg-azul-muy-oscuro rounded-3xl text-center" id="card-submit">
     
-        <img class="mx-auto my-5" src="../images/illustration-thank-you.svg" alt="imagen thanks">
+        <img class="mx-auto my-5" src="images/illustration-thank-you.svg" alt="imagen thanks">
         <p class="rounded-3xl bg-azul-oscuro max-w-max px-3 text-naranja py-1 mx-auto">You selected ${valor.numero} out of 5</p>
         <h3 class="pt-5 text-3xl font-bold">Thank you!</h3>
 
