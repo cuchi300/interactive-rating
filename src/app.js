@@ -57,7 +57,7 @@ function crearHTML() {
         formulario.reset();
         
         window.location.reload();
-    }, 5000);
+    }, 3000);
 }
 
 function mostrarError(mensaje) {
