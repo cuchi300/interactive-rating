@@ -680,6 +680,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-gris-claro {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 12% 63% / var(--tw-bg-opacity));
+}
+
 .bg-naranja {
   --tw-bg-opacity: 1;
   background-color: hsl(25 97% 53% / var(--tw-bg-opacity));
@@ -688,11 +693,6 @@ video {
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
-.bg-gris-claro {
-  --tw-bg-opacity: 1;
-  background-color: hsl(217 12% 63% / var(--tw-bg-opacity));
 }
 
 .p-3 {
